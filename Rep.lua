@@ -1,3 +1,4 @@
+pcall(function()
 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer and game.Players.LocalPlayer.Character
 
 --#region Setup
@@ -2258,3 +2259,4 @@ MainTab:CreateInput({
 	end,
 })
 --#endregion
+				end)
